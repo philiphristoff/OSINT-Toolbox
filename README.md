@@ -2,7 +2,8 @@
 Personal collection of OSINT tools used in my day-to-day life
 
 ## Identity hunting:
-https://facecheck.id/ - Find people online by photo from a database of 800,054,600 faces.
+FaceCheck ID - Find people online by photo from a database of 800,054,600 faces.
+https://facecheck.id/
 
 ## External Collection Management
 VirusTotal – Online tool for scanning files and URLs with multiple antivirus engines.

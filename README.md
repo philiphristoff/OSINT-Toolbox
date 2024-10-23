@@ -5,37 +5,49 @@ Personal collection of OSINT tools used in my day-to-day life
 https://facecheck.id/ - Find people online by photo from a database of 800,054,600 faces.
 
 ## External Collection Management
+VirusTotal – Online tool for scanning files and URLs with multiple antivirus engines.
 https://www.virustotal.com/
- 
-http://vxvault.net/																	
- 
-https://malshare.com/																	
- 
-https://any.run/																	
- 
-https://www.hybrid-analysis.com/																	
- 
-https://tranco-list.eu/																	
- 
-https://www.domaintools.com/																	
- 
-https://urlscan.io/																	
 
-https://urlfiltering.paloaltonetworks.com/																	
+VXVault – Repository of malware samples and malicious URLs for research purposes.
+http://vxvault.net/
 
-https://tria.ge/																	
+MalShare – Free malware repository offering open access to samples for analysis.
+https://malshare.com/
 
-https://www.browserling.com/																	
+ANY.RUN – Interactive malware analysis tool that allows real-time examination of malicious files.
+https://any.run/
 
-https://www.joesandbox.com/#windows																	
+Hybrid Analysis – Cloud-based sandbox for malware analysis and detailed reporting.
+https://www.hybrid-analysis.com/
 
-https://mxtoolbox.com/EmailHeaders.aspx																	
+Tranco List – A research-based ranking of the most popular websites.
+https://tranco-list.eu/
 
-https://www.greynoise.io/																	
+DomainTools – Service for domain name research, WHOIS lookup, and threat intelligence.
+https://www.domaintools.com/
 
-https://lab.dynamite.ai/																	
+urlscan.io – URL scanner to analyze web pages for malicious content and threats.
+https://urlscan.io/
 
-![image](https://github.com/user-attachments/assets/94f3329e-0084-4a55-be46-0254660982d2)
+Palo Alto Networks URL Filtering – Tool for categorizing and analyzing URLs for web filtering.
+https://urlfiltering.paloaltonetworks.com/
 
+tria.ge – Malware analysis and sandboxing service for file and URL investigation.
+https://tria.ge/
+
+Browserling – Online cross-browser testing tool.
+https://www.browserling.com/
+
+Joe Sandbox – Advanced malware analysis sandbox for Windows, macOS, and Android.
+https://www.joesandbox.com/#windows
+
+MXToolbox Email Header Analyzer – Tool for analyzing email headers to trace the path of emails.
+https://mxtoolbox.com/EmailHeaders.aspx
+
+GreyNoise – Threat intelligence platform providing insight into internet background noise and potential threats.
+https://www.greynoise.io/
+
+Dynamite Labs – AI-powered threat intelligence and security automation platform.
+https://lab.dynamite.ai/
 
 

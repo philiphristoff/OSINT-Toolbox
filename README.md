@@ -18,6 +18,11 @@ https://github.com/Aravindha1234u/Probe_spider
 Osintgram - OSINT tool for Instagram
 https://github.com/Datalux/Osintgram
 
+## Digital Footprint & Privacy
+
+Trackography - See who tracks you based on your favorite news outlets
+https://trackography.org/
+
 ## External Collection Management
 VirusTotal – Online tool for scanning files and URLs with multiple antivirus engines.
 https://www.virustotal.com/

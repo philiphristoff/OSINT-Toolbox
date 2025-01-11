@@ -15,6 +15,9 @@ https://pimeyes.com/en
 Probe Spider - Open Source Intelligence Tool
 https://github.com/Aravindha1234u/Probe_spider
 
+Osintgram - OSINT tool for Instagram
+https://github.com/Datalux/Osintgram
+
 ## External Collection Management
 VirusTotal – Online tool for scanning files and URLs with multiple antivirus engines.
 https://www.virustotal.com/

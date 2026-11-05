@@ -17,7 +17,7 @@ RAWGraphs: https://app.rawgraphs.io/: open-source browser data-visualization too
 
 OSINT Framework: https://osintframework.com/: broad tool/source directory. Many entries are commercial, installable, or account-gated, so check each one.
 
-Awesome OSINT: https://github.com/jivoi/awesome-osint: community-maintained directory of tools and sources; not every entry is browser-based or suitable for sensitive investigations.
+Awesome OSINT: https://github.com/jivoi/awesome-osint: community-maintained directory of tools and sources.
 
 Tranco List: https://tranco-list.eu/: public research ranking of popular domains; a reference dataset, not a trust or safety verdict.
 
@@ -31,25 +31,77 @@ ArchiveWeb.page: https://archiveweb.page/: browser-based web-preservation tool f
 
 Bellingcat Online Investigation Toolkit: https://bellingcat.gitbook.io/toolkit: free task-based directory with descriptions and limitations; individual entries have their own licenses, costs, and account requirements. About: https://www.bellingcat.com/resources/2024/09/24/bellingcat-online-investigations-toolkit/
 
-Google Fact Check Explorer: https://toolbox.google.com/factcheck/explorer: search published fact-checks from participating publishers; not every topic or publisher is covered.
+## 3. Public accounts, identity context, social media
 
-DuckDuckGo: https://duckduckgo.com/, Google: https://www.google.com/, Bing: https://www.bing.com/: free public search engines, generally not FOSS. Search results differ and indexing is incomplete; corroborate important claims.
+Social Catfish: https://socialcatfish.com/: Social Catfish is an online investigation and people search platform built to verify identities, spot romance scams, and uncover fake profiles.
 
-## 3. Public accounts and identity context, authorized and public-interest use only
+WhatsMyName: https://whatsmyname.io/: Search a username, nickname, or email across hundreds of public sites to find linked profiles. WhatsMyName.io returns public leads for manual review, not identity proof.
 
-This category is for accounts belonging to organizations, public officials acting in their role, public campaigns, or a person’s own/consented digital-footprint review. It is not for connecting a private person’s pseudonyms to their offline identity or finding their whereabouts.
+Blackbird: https://github.com/p1ngul1n0/blackbird: Search a username across over 600+ websites.
 
-Username-enumeration tools, including WhatsMyName: excluded because they can enable tracking from minimal identifiers. For self-audits, use platform account/privacy tools or obtain explicit consent.
+Cupidcr4wl: https://github.com/OSINTI4L/cupidcr4wl: Username and phone number search tool that crawls adult content platforms to see if a targeted account or person is present.
 
-Meta Ad Library: https://www.facebook.com/ads/library/: search public ads and advertisers on Meta services; useful for public campaign research, not private-account discovery.
+Digital Footprint Check: https://www.digitalfootprintcheck.com/free-checker.html: Check for registered username on 100s of sites for free.
 
-Google Ads Transparency Center: https://adstransparency.google.com/: browse public advertisers and ads appearing across Google surfaces; platform coverage and search options vary.
+Helix: https://github.com/thalha-a9/helix: Check a username on 8,000+ sites, re-verify every hit live against impossible usernames, and graph how the accounts connect.
 
-TikTok Commercial Content Library: https://library.tiktok.com/: public search for eligible ads and other commercial content; use for campaign research, not private-user tracking.
+IDCrawl: https://www.idcrawl.com/username: Search for a username in popular social networks.
 
-FaceCheck ID and PimEyes: facial-search services excluded because of biometric privacy and accuracy risks.
+Maigret: https://github.com/soxoj/maigret: Collect a dossier on a person by username.
 
-Probe Spider and Osintgram: social-account enumeration tools excluded from recommended use for tracking private individuals or bypassing platform access controls.
+Name Chk: https://www.namechk.com/: Check over 30 domains and more than 90 social media account platforms.
+
+Name Checkup: https://namecheckup.com/: is a search tool that allows you to check the avilability of a givrn username from all over the social media. Inaddition it also sllows you to check the avilability of a given domain name.
+
+NexFil: https://github.com/thewhiteh4t/nexfil: checks username from almost all social network sites.
+
+Seekr: https://github.com/seekr-osint/seekr: A multi-purpose all in one toolkit for gathering and managing OSINT-Data with a neat web-interface. Can be used for note taking and username checking.
+
+Sherlock: https://github.com/sherlock-project/sherlock: Search for a username in multiple platforms/websites.
+
+SherlockEye: https://sherlockeye.io/: Search for publicly available information connected to a username, uncovering associated profiles and activities across the web.
+
+Trace: https://trace.manus.space/: Real-time OSINT platform to search usernames, emails, phone numbers, and full names across 600+ platforms with breach detection and AI risk scoring.
+
+TraceFind: https://tracefind.info/: Uncover the Truth Behind Any Username — Instantly. Scans thousands of sites for username presence.
+
+Snoop: https://github.com/snooppr/snoop/blob/master/README.en.md: Search for a nickname on the web (OSINT world)
+
+Social Analyzer: https://github.com/qeeqbox/social-analyzer: API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites
+
+Threat Actor Username Search: https://threatactorusernames.com/: Search through 3M+ threat actor usernames to find where criminals and baddies post online and operate.
+
+user-scanner: https://github.com/kaifcodec/user-scanner.git: Check a username's presence across dev/social/gaming/creator site
+
+User Search: https://www.usersearch.org/: Find someone by username, email, phone number or picture across Social Networks, Dating Sites, Forums, Crypto Forums, Chat Sites and Blogs, 3000+ sites Supported!
+
+User Searcher: https://www.user-searcher.com/: User-Searcher is a powerful and free tool to help you search username in 2000+ websites.
+
+FaceCheck ID: https://facecheck.id/: Upload a face of a person of interest and discover their social media profiles, appearances in blogs, video, and news websites.
+
+PimEyes: https://pimeyes.com/en: PimEyes is an online face search engine available for everyone. Start by uploading a clear photo to perform a reverse image search and find pictures containing given faces across the Internet.
+
+Osintgram: https://osintgram.com/: Osintgram is a specialized open-source intelligence tool designed to collect and analyze publicly available data from Instagram profiles in a structured and efficient way. Built for digital investigators, researchers, and analysts, it transforms scattered social media information into meaningful insights that support smarter decision-making.
+
+InstagramPrivSniffer: https://github.com/obitouka/InstagramPrivSniffer: Views Instagram private accounts media without login.
+
+Insto: https://github.com/subzeroid/insto: Interactive OSINT CLI / REPL with 35+ slash-commands: profile + media + followers + dossier + geo-fingerprint (/where), shared-followers intersection (/intersect), superfan ranking (/fans), location search (/place), URL→metadata resolution (/postinfo), posting-cadence histogram (/timeline), Maltego CSV export. Token-based (HikerAPI, no IG account needed → no ban risk) with optional logged-in aiograpi backend.
+
+Osintgraph: https://github.com/XD-MHLOO/Osintgraph: Tool that maps your target’s Instagram data and relationships in Neo4j for social network analysis.
+
+Toutatis: https://github.com/megadose/toutatis: a tool that allows you to extract information from instagrams accounts such as s, phone numbers and more
+
+IG Detective: https://www.igdetective.com/: Public Instagram investigation with no login: anonymous story viewer, a follower tracker showing an account's recent follows/unfollows, and a profile viewer, plus optional continuous tracking with a permanent Story Archive (account required for tracking only).
+
+Facebook Friend List Scraper: https://github.com/n0kovo/fb_friend_list_scraper: Tool for scraping large Facebook friend lists without being rate-limited.
+
+Facebook Sleep Stats: https://github.com/sorenlouv/fb-sleep-stats: A small tool to show the potential privacy implications modern social media have. By tracking online/offline status of people on Facebook, it is possible to get an accurate image of their sleep pattern.
+
+Have I been Zuckered: https://haveibeenzuckered.com/: A large dataset containing 533 million Facebook accounts was made available for download. The data was obtained by exploiting a vulnerability that was, according to Facebook, corrected in August 2019. Check if a telephone number is present within the Facebook data breach.
+
+EinzzTools TiktTok Info Loader: https://einzzcookie.org/: Find out hidden info about TikTok users and more
+
+The Endorser: https://github.com/eth0izzle/the-endorser: Tool that allows you to draw out relationships between people on LinkedIn via endorsements/skills.
 
 ## 4. Threat intelligence, vulnerability, and malware research
 
@@ -77,13 +129,11 @@ NIST National Vulnerability Database: https://nvd.nist.gov/vuln/search: public C
 
 FIRST EPSS: https://www.first.org/epss/: public exploit-likelihood data to help prioritize vulnerabilities; a score is not a prediction of a specific attack.
 
+SpiderFoot: https://spiderfoot.xyz/: SpiderFoot is an open source intelligence (OSINT) automation tool. It integrates with just about every data source available and utilises a range of methods for data analysis, making that data easy to navigate.
+
 Dynamite Labs: https://lab.dynamite.ai/: commercial threat-intelligence and automation platform.
 
-Malware-handling rule: search hashes and metadata first. Never download or execute samples on a normal workstation; use only an isolated environment and follow organizational policy.
-
 ## 5. Geolocation, maps, and satellite context
-
-Use these to verify locations and public events, not to infer or monitor a private person’s whereabouts.
 
 NASA Worldview: https://worldview.earthdata.nasa.gov/: free viewer for Earth-observation imagery and layers over time; data access/download requirements may vary by layer.
 
@@ -113,8 +163,6 @@ OpenStreetMap: https://www.openstreetmap.org/ and Overpass Turbo: https://overpa
 
 ## 6. Companies, filings, sanctions, and public records
 
-Use official registers first and note jurisdiction, filing date, and any data limitations. Do not use people-named records to expose a private individual’s home or contact details.
-
 SEC EDGAR Search: https://www.sec.gov/edgar/search/: official US public-company filings and full-text search; not a universal registry.
 
 UK Companies House: https://find-and-update.company-information.service.gov.uk/: official UK company search and filed documents; verify claims against original filings.
@@ -128,8 +176,6 @@ OpenSanctions: https://www.opensanctions.org/search/: searchable open-data proje
 OpenCorporates: https://opencorporates.com/: broad company-record search; free access may be limited, and the primary registry remains the source of record.
 
 ## 7. Domains, DNS, certificates, IPs, and routing
-
-For authorized organization/domain research and defensive triage. Infrastructure records provide technical context; they do not identify a person or establish attribution.
 
 crt.sh: https://crt.sh/: search Certificate Transparency logs for certificates mentioning a domain; discovered hosts may be historical, inactive, or unrelated.
 
@@ -155,8 +201,6 @@ DomainTools: https://www.domaintools.com/: commercial domain-intelligence servic
 
 ## 8. Image, video, and media verification
 
-Use these to assess public media and verify context. Visual-analysis outputs are leads, not proof of manipulation or identity. Avoid using reverse-image services to identify private people by face.
-
 FotoForensics: https://fotoforensics.com/: web-based image-analysis utility; compression artifacts alone do not prove editing. Check upload terms before submitting sensitive images.
 
 Forensically: https://29a.ch/photo-forensics/: free browser suite for metadata, clone patterns, noise, and C2PA-related information. The site says images stay on the user’s device; its documentation cautions that outputs are only clues. Source-code licensing is not asserted here.
@@ -169,13 +213,11 @@ FFmpeg: https://ffmpeg.org/: open-source local media toolkit that can extract vi
 
 Content Credentials Verify: https://contentcredentials.org/verify: free public verifier for C2PA credentials when present. A signed provenance record does not guarantee that a depicted scene is true; missing credentials do not prove fakery.
 
-Google Lens: https://lens.google/, Bing Visual Search: https://www.bing.com/visualsearch, TinEye: https://tineye.com/: free or limited reverse-image services, not FOSS. Useful for finding earlier appearances or alternate contexts of an image; avoid face-based identification of private people.
+Google Lens: https://lens.google/, Bing Visual Search: https://www.bing.com/visualsearch, TinEye: https://tineye.com/: free or limited reverse-image services, not FOSS. Useful for finding earlier appearances or alternate contexts of an image.
 
 WITNESS Media Lab Verification Resources: https://lab.witness.org/portfolio_page/verification/: training materials on verifying citizen media for journalism and human-rights documentation. Use the guidance as a process reference and verify each claim independently.
 
 Bellingcat Advanced Guide on Verifying Video Content: https://www.bellingcat.com/resources/how-tos/2017/06/30/advanced-guide-verifying-video-content/: a guide to checking earlier appearances and context using video frames and reverse-image search. It is older, so individual tool details may have changed.
-
-Reddit r/OSINT: https://www.reddit.com/r/OSINT/: community discussions about OSINT; not a vetted reference.
 
 ## 9. Public datasets, news, and structured research
 
@@ -191,8 +233,6 @@ Common Crawl: https://commoncrawl.org/: see Section 2 for its public web-crawl i
 
 ## 10. Email headers and message authentication
 
-These utilities inspect message metadata, not a person’s location or private account access. Do not paste confidential mail into third-party tools without organizational approval.
-
 MXToolbox Email Header Analyzer: https://mxtoolbox.com/EmailHeaders.aspx: parse Received lines and authentication headers; proprietary service, and header paths can be forged or incomplete.
 
 Google Admin Toolbox Messageheader: https://toolbox.googleapps.com/apps/messageheader/: another free header-analysis view; results are not proof of sender identity.
@@ -200,8 +240,6 @@ Google Admin Toolbox Messageheader: https://toolbox.googleapps.com/apps/messageh
 MXToolbox: https://mxtoolbox.com/: DNS, MX, SPF, DMARC, and blacklist lookups; free features are limited and the service is not FOSS.
 
 ## 11. Digital footprint, privacy, and web-tracking audit
-
-These are for auditing your own browser, a website, or an authorized organization, not for covertly tracking another person.
 
 EFF Cover Your Tracks: https://coveryourtracks.eff.org/: free browser test for selected tracker-blocking and fingerprinting characteristics; not a security certification or proof of anonymity. Project source: https://github.com/EFForg/cover-your-tracks
 

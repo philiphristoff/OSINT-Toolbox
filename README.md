@@ -39,7 +39,7 @@ DuckDuckGo: https://duckduckgo.com/, Google: https://www.google.com/, Bing: http
 
 This category is for accounts belonging to organizations, public officials acting in their role, public campaigns, or a person’s own/consented digital-footprint review. It is not for connecting a private person’s pseudonyms to their offline identity or finding their whereabouts.
 
-Username-enumeration tools, including WhatsMyName: not included in the recommended list because the stated objective is tracking people/accounts from minimal identifiers. For a self-audit, use the platforms’ own account/privacy tools or obtain explicit consent.
+Username-enumeration tools, including WhatsMyName: excluded because they can enable tracking from minimal identifiers. For self-audits, use platform account/privacy tools or obtain explicit consent.
 
 Meta Ad Library: https://www.facebook.com/ads/library/: search public ads and advertisers on Meta services; useful for public campaign research, not private-account discovery.
 
@@ -47,9 +47,9 @@ Google Ads Transparency Center: https://adstransparency.google.com/: browse publ
 
 TikTok Commercial Content Library: https://library.tiktok.com/: public search for eligible ads and other commercial content; use for campaign research, not private-user tracking.
 
-FaceCheck ID and PimEyes: retained only as excluded items from the original list; facial-search services are not FOSS and are not recommended here for identifying or tracking private people. Face matches can be wrong and biometric search creates serious privacy and legal risks.
+FaceCheck ID and PimEyes: facial-search services excluded because of biometric privacy and accuracy risks.
 
-Probe Spider and Osintgram: the original list’s installable social-account enumeration projects are not included in the recommended workflow for tracking private people or bypassing platform access controls.
+Probe Spider and Osintgram: social-account enumeration tools excluded from recommended use for tracking private individuals or bypassing platform access controls.
 
 ## 4. Threat intelligence, vulnerability, and malware research
 
@@ -65,9 +65,9 @@ OpenPhish: https://openphish.com/: phishing-intelligence feed and public sample 
 
 MalwareBazaar: https://bazaar.abuse.ch/: search malware samples by hash or metadata first; use isolated, authorized analysis environments for samples.
 
-MalShare: https://malshare.com/ and VXVault: http://vxvault.net/: malware repositories from the original list; treat downloads as dangerous and verify current access and terms before use.
+MalShare: https://malshare.com/ and VXVault: http://vxvault.net/: malware sample repositories. Treat downloads as dangerous and verify current access and terms.
 
-ANY.RUN: https://any.run/, Hybrid Analysis: https://www.hybrid-analysis.com/, Triage: https://tria.ge/, Joe Sandbox: https://www.joesandbox.com/#windows: hosted sandboxes from the original list. Proprietary; free/community features, accounts, and submission visibility vary. Never submit confidential samples unless approved.
+ANY.RUN: https://any.run/, Hybrid Analysis: https://www.hybrid-analysis.com/, Triage: https://tria.ge/, Joe Sandbox: https://www.joesandbox.com/#windows: hosted malware-analysis sandboxes. Account requirements, free features, and submission visibility vary.
 
 GreyNoise: https://www.greynoise.io/: threat-intelligence service with limited community access; account/API availability may vary. Provides Internet-noise context, not individual attribution.
 
@@ -77,7 +77,7 @@ NIST National Vulnerability Database: https://nvd.nist.gov/vuln/search: public C
 
 FIRST EPSS: https://www.first.org/epss/: public exploit-likelihood data to help prioritize vulnerabilities; a score is not a prediction of a specific attack.
 
-Dynamite Labs: https://lab.dynamite.ai/: commercial threat-intelligence/automation platform from the original list; not a strict FOSS/no-account match.
+Dynamite Labs: https://lab.dynamite.ai/: commercial threat-intelligence and automation platform.
 
 Malware-handling rule: search hashes and metadata first. Never download or execute samples on a normal workstation; use only an isolated environment and follow organizational policy.
 
@@ -157,7 +157,7 @@ DomainTools: https://www.domaintools.com/: commercial domain-intelligence servic
 
 Use these to assess public media and verify context. Visual-analysis outputs are leads, not proof of manipulation or identity. Avoid using reverse-image services to identify private people by face.
 
-FotoForensics: https://fotoforensics.com/: free web-based image analysis utility from the original list, but not FOSS. Compression artifacts are not proof of editing; review upload/privacy terms before submitting sensitive images.
+FotoForensics: https://fotoforensics.com/: web-based image-analysis utility; compression artifacts alone do not prove editing. Check upload terms before submitting sensitive images.
 
 Forensically: https://29a.ch/photo-forensics/: free browser suite for metadata, clone patterns, noise, and C2PA-related information. The site says images stay on the user’s device; its documentation cautions that outputs are only clues. Source-code licensing is not asserted here.
 
@@ -175,7 +175,7 @@ WITNESS Media Lab Verification Resources: https://lab.witness.org/portfolio_page
 
 Bellingcat Advanced Guide on Verifying Video Content: https://www.bellingcat.com/resources/how-tos/2017/06/30/advanced-guide-verifying-video-content/: a guide to checking earlier appearances and context using video frames and reverse-image search. It is older, so individual tool details may have changed.
 
-Reddit r/OSINT: https://www.reddit.com/r/OSINT/: community discussion, not a vetted reference. I attempted to review threads, but search returned no usable results and Reddit blocked direct access during this check. Treat posts as leads and verify recommendations against specialist guidance and primary sources.
+Reddit r/OSINT: https://www.reddit.com/r/OSINT/: community discussions about OSINT; not a vetted reference.
 
 ## 9. Public datasets, news, and structured research
 
@@ -209,12 +209,16 @@ BrowserLeaks: https://browserleaks.com/: free browser-based tests showing techni
 
 Blacklight: https://themarkup.org/blacklight: website tracker-audit tool from The Markup; use to inspect a site’s tracking behavior, not infer who visited it.
 
-Trackography: https://trackography.org/: original-list resource for visualizing third-party tracking on news sites; check that the site and dataset are still maintained before relying on it.
+Trackography: https://trackography.org/: visualizes third-party tracking on news websites.
 
 PrivacyTests.org: https://privacytests.org/: open test results comparing browser privacy behavior; informative, but not a guarantee that a browser is secure or anonymous.
 
-## 12. Browser testing utility
+## 12. Remote browsers
 
-Browserling: https://www.browserling.com/: cross-browser testing service from the original list; not an OSINT source and not FOSS. Free use may be limited.
+Browserling URL Sandbox: https://www.browserling.com/browser-sandbox: interactive browser sessions run remotely.
 
-Browser.lol: https://browser.lol/en: disposable cloud-browser sessions for visiting unfamiliar sites away from your device, with no local browser installation. The service offers an ad-supported free tier and paid options.
+Browser.lol: https://browser.lol/en: isolated cloud-browser sessions for visiting pages away from your device.
+
+MyBrowser: https://www.mybrowser.lol/online-browser: remote Chrome, Firefox, and other browser sessions streamed through your browser.
+
+Kasm Workspaces: https://kasm.com/browser-isolation: container-based browser isolation with an in-browser demo and deployable workspaces.

@@ -1,7 +1,7 @@
 # OSINT-Toolbox
 Personal collection of OSINT tools used in my day-to-day life
 
-##1. Open-source browser tools, directories, and research workflow
+## 1. Open-source browser tools, directories, and research workflow
 
 CyberChef: https://gchq.github.io/CyberChef/: FOSS browser toolkit for decoding, transforming, parsing, hashing, and inspecting data such as URLs, timestamps, certificates, and logs. Source under Apache 2.0. Most processing runs locally in-browser; some operations contact external services. Source and license: https://github.com/gchq/CyberChef
 
@@ -21,7 +21,7 @@ Awesome OSINT: https://github.com/jivoi/awesome-osint: community-maintained dire
 
 Tranco List: https://tranco-list.eu/: public research ranking of popular domains; a reference dataset, not a trust or safety verdict.
 
-##2. Web archives, source discovery, and fact-checking
+## 2. Web archives, source discovery, and fact-checking
 
 Internet Archive Wayback Machine: https://web.archive.org/: free public archive for historical page snapshots and preservation. A missing capture does not prove a page never existed.
 
@@ -35,7 +35,7 @@ Google Fact Check Explorer: https://toolbox.google.com/factcheck/explorer: searc
 
 DuckDuckGo: https://duckduckgo.com/, Google: https://www.google.com/, Bing: https://www.bing.com/: free public search engines, generally not FOSS. Search results differ and indexing is incomplete; corroborate important claims.
 
-##3. Public accounts and identity context, authorized and public-interest use only
+## 3. Public accounts and identity context, authorized and public-interest use only
 
 This category is for accounts belonging to organizations, public officials acting in their role, public campaigns, or a person’s own/consented digital-footprint review. It is not for connecting a private person’s pseudonyms to their offline identity or finding their whereabouts.
 
@@ -51,7 +51,7 @@ FaceCheck ID and PimEyes: retained only as excluded items from the original list
 
 Probe Spider and Osintgram: the original list’s installable social-account enumeration projects are not included in the recommended workflow for tracking private people or bypassing platform access controls.
 
-##4. Threat intelligence, vulnerability, and malware research
+## 4. Threat intelligence, vulnerability, and malware research
 
 VirusTotal: https://www.virustotal.com/: multi-engine file/URL reputation checks; proprietary, with free-feature and account limits. Public submissions may be retained or shared; never upload confidential material without approval.
 
@@ -81,7 +81,7 @@ Dynamite Labs: https://lab.dynamite.ai/: commercial threat-intelligence/automati
 
 Malware-handling rule: search hashes and metadata first. Never download or execute samples on a normal workstation; use only an isolated environment and follow organizational policy.
 
-##5. Geolocation, maps, and satellite context
+## 5. Geolocation, maps, and satellite context
 
 Use these to verify locations and public events, not to infer or monitor a private person’s whereabouts.
 
@@ -111,7 +111,7 @@ Bellingcat, A Beginner’s Guide to Geolocating Videos: https://www.bellingcat.c
 
 OpenStreetMap: https://www.openstreetmap.org/ and Overpass Turbo: https://overpass-turbo.eu/: see Section 1 for the open map and feature-query tools.
 
-##6. Companies, filings, sanctions, and public records
+## 6. Companies, filings, sanctions, and public records
 
 Use official registers first and note jurisdiction, filing date, and any data limitations. Do not use people-named records to expose a private individual’s home or contact details.
 
@@ -127,7 +127,7 @@ OpenSanctions: https://www.opensanctions.org/search/: searchable open-data proje
 
 OpenCorporates: https://opencorporates.com/: broad company-record search; free access may be limited, and the primary registry remains the source of record.
 
-##7. Domains, DNS, certificates, IPs, and routing
+## 7. Domains, DNS, certificates, IPs, and routing
 
 For authorized organization/domain research and defensive triage. Infrastructure records provide technical context; they do not identify a person or establish attribution.
 
@@ -153,7 +153,7 @@ Palo Alto URL Filtering: https://urlfiltering.paloaltonetworks.com/: free URL-ca
 
 DomainTools: https://www.domaintools.com/: commercial domain-intelligence service; free access is limited and some features require an account.
 
-##8. Image, video, and media verification
+## 8. Image, video, and media verification
 
 Use these to assess public media and verify context. Visual-analysis outputs are leads, not proof of manipulation or identity. Avoid using reverse-image services to identify private people by face.
 
@@ -177,7 +177,7 @@ Bellingcat Advanced Guide on Verifying Video Content: https://www.bellingcat.com
 
 Reddit r/OSINT: https://www.reddit.com/r/OSINT/: community discussion, not a vetted reference. I attempted to review threads, but search returned no usable results and Reddit blocked direct access during this check. Treat posts as leads and verify recommendations against specialist guidance and primary sources.
 
-##9. Public datasets, news, and structured research
+## 9. Public datasets, news, and structured research
 
 Wikidata Query Service: https://query.wikidata.org/: browser-based queries over public structured data, including downloadable results. No account is required for ordinary queries; verify community-maintained statements against primary sources. Documentation: https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service
 
@@ -189,7 +189,7 @@ Crossref Search: https://search.crossref.org/: public scholarly publication meta
 
 Common Crawl: https://commoncrawl.org/: see Section 2 for its public web-crawl index and historical URL records.
 
-##10. Email headers and message authentication
+## 10. Email headers and message authentication
 
 These utilities inspect message metadata, not a person’s location or private account access. Do not paste confidential mail into third-party tools without organizational approval.
 
@@ -199,7 +199,7 @@ Google Admin Toolbox Messageheader: https://toolbox.googleapps.com/apps/messageh
 
 MXToolbox: https://mxtoolbox.com/: DNS, MX, SPF, DMARC, and blacklist lookups; free features are limited and the service is not FOSS.
 
-##11. Digital footprint, privacy, and web-tracking audit
+## 11. Digital footprint, privacy, and web-tracking audit
 
 These are for auditing your own browser, a website, or an authorized organization, not for covertly tracking another person.
 
@@ -213,7 +213,7 @@ Trackography: https://trackography.org/: original-list resource for visualizing 
 
 PrivacyTests.org: https://privacytests.org/: open test results comparing browser privacy behavior; informative, but not a guarantee that a browser is secure or anonymous.
 
-##12. Browser testing utility
+## 12. Browser testing utility
 
 Browserling: https://www.browserling.com/: cross-browser testing service from the original list; not an OSINT source and not FOSS. Free use may be limited.
 
